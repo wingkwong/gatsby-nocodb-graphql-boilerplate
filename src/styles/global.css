@@ -1,0 +1,22 @@
+
+/* We use styled components and material ui.
+*/
+/*@tailwind base;*/
+/*@tailwind components;*/
+@tailwind utilities;
+
+html, body {
+    margin: 0px;
+}
+
+a:visited {
+    color: #673ab7
+}
+
+a:hover {
+    color: #673ab7
+}
+
+a {
+    color: #673ab7
+}
