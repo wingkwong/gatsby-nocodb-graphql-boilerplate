@@ -31,7 +31,7 @@ cp .env.sample .env
 npm run dev
 ```
 
-View ``gatsby-nocodb-boilerplate`` in the browser
+View ``gatsby-nocodb-graphql-boilerplate`` in the browser
 
 ```
 http://localhost:8000/
