@@ -9,11 +9,11 @@ const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
       nocodb {
-        indexList(condition: { key: { eq: "title" } }) {
-          en
-          key
-          zh
+        fooList {
           id
+          en
+          zh
+          ko
         }
       }
     }
@@ -22,8 +22,7 @@ const IndexPage = () => {
     <main>
       <Layout>
         {t('welcome')}
-        <br />
-        {data.nocodb.indexList[0][i18n.language]}
+        <p>{data.nocodb.fooList[0][i18n.language]}</p>
       </Layout>
     </main>
   );
