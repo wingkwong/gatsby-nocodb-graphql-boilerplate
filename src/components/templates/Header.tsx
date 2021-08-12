@@ -20,18 +20,20 @@ const Header = () => {
 
   return (
     <AppBar position="static" color="transparent" elevation={1}>
-      <div className="w-full lg:w-1/2">
+      <div className="w-full">
         <Toolbar>
           <Typography variant="h5">{t('title')}</Typography>
-          <Button color="inherit" onClick={() => changeLanguage('en')}>
-            EN
-          </Button>
-          <Button color="inherit" onClick={() => changeLanguage('zh')}>
-            繁
-          </Button>
-          <Button color="inherit" onClick={() => changeLanguage('ko')}>
-            한국어
-          </Button>
+          <div className="absolute right-5">
+            <Button color="inherit" onClick={() => changeLanguage('en')}>
+              EN
+            </Button>
+            <Button color="inherit" onClick={() => changeLanguage('zh')}>
+              繁
+            </Button>
+            <Button color="inherit" onClick={() => changeLanguage('ko')}>
+              한국어
+            </Button>
+          </div>
         </Toolbar>
       </div>
     </AppBar>
