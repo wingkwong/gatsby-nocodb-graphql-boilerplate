@@ -2,6 +2,10 @@
 
 This boilerplate is based on [gatsby-template](https://github.com/nandiheath/gatsby-template) originally and further integrated with [NocoDB](https://github.com/nocodb/nocodb) GraphQL.
 
+![image](https://user-images.githubusercontent.com/35857179/129146401-71420ee1-e81a-456a-ac47-fb54135e91e8.png)
+
+![image](https://user-images.githubusercontent.com/35857179/129146439-3fb5011e-77c6-4465-9982-41c9003894f2.png)
+
 # Features
 
 - Integrated with NocoDB
